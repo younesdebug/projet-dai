@@ -1,0 +1,5 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\python.exe -c "import sklearn; print(sklearn.__version__)"
+1.9.1
+
+Code de sortie : 0

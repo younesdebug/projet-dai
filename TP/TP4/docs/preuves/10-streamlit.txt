@@ -1,0 +1,4 @@
+Commande : .venv\Scripts\streamlit.exe run ui/app.py --server.port 8502 --server.headless true --browser.gatherUsageStats false
+URL : http://localhost:8502/_stcore/health
+HTTP 200
+ok

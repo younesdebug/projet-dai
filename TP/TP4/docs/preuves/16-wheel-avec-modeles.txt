@@ -1,0 +1,14 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\maintai-predict.exe 72 6 85 15000
+C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.8.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator LogisticRegression from version 1.8.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator Pipeline from version 1.8.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Probabilité de panne : 95 % (ALERTE)
+
+Code de sortie : 0

@@ -1,0 +1,4 @@
+$ .venv\Scripts\python.exe -m maintai.dataset
+5000 relevés écrits dans C:\Users\Othmane\Desktop\maintai-starter-tp4\data\sensors.csv (taux de panne : 13.6%)
+
+Code de sortie : 0

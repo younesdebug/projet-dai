@@ -1,0 +1,6 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\maintai-predict.exe 72 6 85 15000
+Modèle introuvable : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Lib\site-packages\models\model.joblib
+Entraînez-le (python -m maintai.train) ou indiquez son dossier dans MAINTAI_MODELS_DIR.
+
+Code de sortie : 1

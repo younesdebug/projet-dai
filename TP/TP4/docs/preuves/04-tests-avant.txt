@@ -1,0 +1,102 @@
+$ .venv\Scripts\python.exe -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.1.1, pluggy-1.7.0
+rootdir: C:\Users\Othmane\Desktop\maintai-starter-tp4
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.16.0
+collected 27 items
+
+tests\test_api.py .......                                                [ 25%]
+tests\test_cli.py ..                                                     [ 33%]
+tests\test_client.py ...                                                 [ 44%]
+tests\test_data.py ...                                                   [ 55%]
+tests\test_package.py FF                                                 [ 62%]
+tests\test_security.py .....                                             [ 81%]
+tests\test_train.py ...                                                  [ 92%]
+tests\test_ui.py ..                                                      [100%]
+
+================================== FAILURES ===================================
+___________________ test_installed_version_matches_the_code ___________________
+
+cls = <class 'importlib.metadata.Distribution'>, name = 'maintai'
+
+    @classmethod
+    def from_name(cls, name: str) -> Distribution:
+        """Return the Distribution for the given package name.
+    
+        :param name: The name of the distribution package to search for.
+        :return: The Distribution instance (or subclass thereof) for the named
+            package, if found.
+        :raises PackageNotFoundError: When the named package's distribution
+            metadata cannot be found.
+        :raises ValueError: When an invalid value is supplied for name.
+        """
+        if not name:
+            raise ValueError("A distribution name is required.")
+        try:
+>           return next(iter(cls.discover(name=name)))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           StopIteration
+
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\__init__.py:407: StopIteration
+
+During handling of the above exception, another exception occurred:
+
+    def test_installed_version_matches_the_code():
+        # Échoue tant que le package n'est pas installé (pip install -e .)
+>       assert version("maintai") == maintai.__version__
+               ^^^^^^^^^^^^^^^^^^
+
+tests\test_package.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\__init__.py:987: in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\__init__.py:960: in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+cls = <class 'importlib.metadata.Distribution'>, name = 'maintai'
+
+    @classmethod
+    def from_name(cls, name: str) -> Distribution:
+        """Return the Distribution for the given package name.
+    
+        :param name: The name of the distribution package to search for.
+        :return: The Distribution instance (or subclass thereof) for the named
+            package, if found.
+        :raises PackageNotFoundError: When the named package's distribution
+            metadata cannot be found.
+        :raises ValueError: When an invalid value is supplied for name.
+        """
+        if not name:
+            raise ValueError("A distribution name is required.")
+        try:
+            return next(iter(cls.discover(name=name)))
+        except StopIteration:
+>           raise PackageNotFoundError(name)
+E           importlib.metadata.PackageNotFoundError: No package metadata was found for maintai
+
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\__init__.py:409: PackageNotFoundError
+__________________________ test_command_is_declared ___________________________
+
+    def test_command_is_declared():
+        noms = [e.name for e in entry_points(group="console_scripts")]
+>       assert "maintai-predict" in noms
+E       AssertionError: assert 'maintai-predict' in ['pyproject-build', 'normalizer', 'fastapi', 'httpx', 'idna', 'jsonschema', ...]
+
+tests\test_package.py:13: AssertionError
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\Othmane\Desktop\maintai-starter-tp4\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_package.py::test_installed_version_matches_the_code - impor...
+FAILED tests/test_package.py::test_command_is_declared - AssertionError: asse...
+================== 2 failed, 25 passed, 1 warning in 19.28s ===================
+
+Code de sortie : 1

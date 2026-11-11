@@ -1,0 +1,16 @@
+$ .venv\Scripts\python.exe -m zipfile -l dist/maintai-0.2.0-py3-none-any.whl
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\zipfile\__main__.py", line 4, in <module>
+    main()
+    ~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\zipfile\__init__.py", line 2348, in main
+    with ZipFile(src, 'r', metadata_encoding=encoding) as zf:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\zipfile\__init__.py", line 1389, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'dist/maintai-0.2.0-py3-none-any.whl'
+
+Code de sortie : 1

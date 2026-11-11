@@ -1,0 +1,27 @@
+$ .venv\Scripts\python.exe -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.1.1, pluggy-1.7.0
+rootdir: C:\Users\Othmane\Desktop\maintai-starter-tp4
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.16.0
+collected 27 items
+
+tests\test_api.py .......                                                [ 25%]
+tests\test_cli.py ..                                                     [ 33%]
+tests\test_client.py ...                                                 [ 44%]
+tests\test_data.py ...                                                   [ 55%]
+tests\test_package.py ..                                                 [ 62%]
+tests\test_security.py .....                                             [ 81%]
+tests\test_train.py ...                                                  [ 92%]
+tests\test_ui.py ..                                                      [100%]
+
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\Othmane\Desktop\maintai-starter-tp4\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 27 passed, 1 warning in 6.19s ========================
+
+Code de sortie : 0

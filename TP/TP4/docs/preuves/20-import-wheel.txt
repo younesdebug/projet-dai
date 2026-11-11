@@ -1,0 +1,6 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\python.exe -c "import maintai, sklearn; print(maintai.__file__); print(sklearn.__version__)"
+C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Lib\site-packages\maintai\__init__.py
+1.8.0
+
+Code de sortie : 0

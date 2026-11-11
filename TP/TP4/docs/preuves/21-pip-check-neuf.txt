@@ -1,0 +1,5 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\python.exe -m pip check
+No broken requirements found.
+
+Code de sortie : 0

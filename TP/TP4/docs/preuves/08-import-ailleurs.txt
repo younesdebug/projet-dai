@@ -1,0 +1,5 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\Desktop\maintai-starter-tp4\.venv\Scripts\python.exe -c "import maintai; print(maintai.__file__)"
+C:\Users\Othmane\Desktop\maintai-starter-tp4\maintai\__init__.py
+
+Code de sortie : 0

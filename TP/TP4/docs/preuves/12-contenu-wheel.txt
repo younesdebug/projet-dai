@@ -1,0 +1,20 @@
+$ tar -tf dist\maintai-0.2.0-py3-none-any.whl
+maintai/__init__.py
+maintai/cli.py
+maintai/client.py
+maintai/config.py
+maintai/data.py
+maintai/dataset.py
+maintai/predict.py
+maintai/train.py
+maintai/api/__init__.py
+maintai/api/main.py
+maintai/api/schemas.py
+maintai/api/security.py
+maintai-0.2.0.dist-info/METADATA
+maintai-0.2.0.dist-info/WHEEL
+maintai-0.2.0.dist-info/entry_points.txt
+maintai-0.2.0.dist-info/top_level.txt
+maintai-0.2.0.dist-info/RECORD
+
+Code de sortie : 0

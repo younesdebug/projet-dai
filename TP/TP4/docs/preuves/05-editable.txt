@@ -1,0 +1,38 @@
+$ .venv\Scripts\python.exe -m pip install -e .
+Obtaining file:///C:/Users/Othmane/Desktop/maintai-starter-tp4
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=2.2 in .\.venv\Lib\site-packages (from maintai==0.2.0) (2.4.4)
+Requirement already satisfied: pandas>=2.2 in .\.venv\Lib\site-packages (from maintai==0.2.0) (3.0.2)
+Requirement already satisfied: scikit-learn>=1.6 in .\.venv\Lib\site-packages (from maintai==0.2.0) (1.8.0)
+Requirement already satisfied: joblib>=1.4 in .\.venv\Lib\site-packages (from maintai==0.2.0) (1.5.3)
+Requirement already satisfied: httpx>=0.28 in .\.venv\Lib\site-packages (from maintai==0.2.0) (0.28.1)
+Requirement already satisfied: anyio in .\.venv\Lib\site-packages (from httpx>=0.28->maintai==0.2.0) (4.16.0)
+Requirement already satisfied: certifi in .\.venv\Lib\site-packages (from httpx>=0.28->maintai==0.2.0) (2026.10.23)
+Requirement already satisfied: httpcore==1.* in .\.venv\Lib\site-packages (from httpx>=0.28->maintai==0.2.0) (1.0.9)
+Requirement already satisfied: idna in .\.venv\Lib\site-packages (from httpx>=0.28->maintai==0.2.0) (3.20)
+Requirement already satisfied: h11>=0.16 in .\.venv\Lib\site-packages (from httpcore==1.*->httpx>=0.28->maintai==0.2.0) (0.16.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in .\.venv\Lib\site-packages (from pandas>=2.2->maintai==0.2.0) (4.0.0)
+Requirement already satisfied: tzdata in .\.venv\Lib\site-packages (from pandas>=2.2->maintai==0.2.0) (2026.6)
+Requirement already satisfied: scipy>=1.10.0 in .\.venv\Lib\site-packages (from scikit-learn>=1.6->maintai==0.2.0) (1.18.1)
+Requirement already satisfied: threadpoolctl>=3.2.0 in .\.venv\Lib\site-packages (from scikit-learn>=1.6->maintai==0.2.0) (3.8.0)
+Requirement already satisfied: typing_extensions>=4.16.0 in .\.venv\Lib\site-packages (from anyio->httpx>=0.28->maintai==0.2.0) (4.16.0)
+Building wheels for collected packages: maintai
+  Building editable for maintai (pyproject.toml): started
+  Building editable for maintai (pyproject.toml): finished with status 'done'
+  Created wheel for maintai: filename=maintai-0.2.0-0.editable-py3-none-any.whl size=4370 sha256=97a46b7b4ae9b0ecc79b841831ca6c1a678376a7b53d1f39fd5065bd2858858a
+  Stored in directory: C:\Users\Othmane\AppData\Local\Temp\pip-ephem-wheel-cache-fo2f9zg5\wheels\5e\f2\c8\5c7eddb2d2ed914500da3717865e14cfcec4c7e3750c6479f9
+Successfully built maintai
+Installing collected packages: maintai
+Successfully installed maintai-0.2.0
+
+[notice] A new release of pip is available: 26.1.2 -> 26.3
+[notice] To update, run: C:\Users\Othmane\Desktop\maintai-starter-tp4\.venv\Scripts\python.exe -m pip install --upgrade pip
+
+Code de sortie : 0

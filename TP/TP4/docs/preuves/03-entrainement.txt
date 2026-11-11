@@ -1,0 +1,18 @@
+$ .venv\Scripts\python.exe -m maintai.train
+{
+  "model": {
+    "accuracy": 0.904,
+    "recall": 0.75,
+    "precision": 0.622,
+    "threshold": 0.3
+  },
+  "baseline": {
+    "accuracy": 0.864,
+    "recall": 0.0
+  },
+  "n_train": 4000,
+  "n_test": 1000
+}
+Modèle sauvegardé dans C:\Users\Othmane\Desktop\maintai-starter-tp4\models\model.joblib
+
+Code de sortie : 0

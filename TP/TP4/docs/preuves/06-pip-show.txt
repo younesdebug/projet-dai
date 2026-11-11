@@ -1,0 +1,14 @@
+$ .venv\Scripts\python.exe -m pip show maintai
+Name: maintai
+Version: 0.2.0
+Summary: Prédiction de panne à partir de relevés de capteurs industriels.
+Home-page: 
+Author: 
+Author-email: 
+License: 
+Location: C:\Users\Othmane\Desktop\maintai-starter-tp4\.venv\Lib\site-packages
+Editable project location: C:\Users\Othmane\Desktop\maintai-starter-tp4
+Requires: httpx, joblib, numpy, pandas, scikit-learn
+Required-by: 
+
+Code de sortie : 0

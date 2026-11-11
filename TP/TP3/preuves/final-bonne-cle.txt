@@ -1,0 +1,47 @@
+Skip to main content
+
+URL de l'API
+
+Clé API
+
+visibility
+Deploy
+MaintAI · prédiction de panne
+
+Données
+
+Prédiction
+
+Température (°C)
+
+72.00
+
+-40.00
+
+150.00
+
+Vibration (mm/s)
+
+6.00
+
+0.00
+
+50.00
+
+Charge (%)
+
+85.00
+
+0.00
+
+100.00
+
+Heures de fonctionnement
+
+Prédire
+
+Probabilité de panne
+
+95 %
+
+ALERTE : risque de panne élevé.

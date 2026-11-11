@@ -1,0 +1,9 @@
+Skip to main content
+Deploy
+ModuleNotFoundError: No module named 'maintai'
+Traceback:
+File "C:\Users\Othmane\Desktop\maintai-starter-tp3\ui\app.py", line 9, in <module>
+    from maintai.client import APIError, MaintaiClient
+Copy
+Ask Google
+Ask ChatGPT

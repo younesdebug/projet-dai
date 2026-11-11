@@ -1,0 +1,4 @@
+$ .venv\Scripts\maintai-predict.exe 72 6 85 15000
+Probabilité de panne : 95 % (ALERTE)
+
+Code de sortie : 0

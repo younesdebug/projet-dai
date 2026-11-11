@@ -1,0 +1,4 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\Desktop\maintai-starter-tp4\.venv\Scripts\python.exe -m venv C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv
+
+Code de sortie : 0

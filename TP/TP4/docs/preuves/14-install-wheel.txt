@@ -1,0 +1,63 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\python.exe -m pip install C:\Users\Othmane\Desktop\maintai-starter-tp4\dist\maintai-0.2.0-py3-none-any.whl
+Processing C:\Users\Othmane\Desktop\maintai-starter-tp4\dist\maintai-0.2.0-py3-none-any.whl
+Collecting numpy>=2.2 (from maintai==0.2.0)
+  Using cached numpy-2.5.4-cp313-cp313-win_amd64.whl.metadata (6.6 kB)
+Collecting pandas>=2.2 (from maintai==0.2.0)
+  Using cached pandas-3.1.1-cp313-cp313-win_amd64.whl.metadata (16 kB)
+Collecting scikit-learn>=1.6 (from maintai==0.2.0)
+  Downloading scikit_learn-1.9.1-cp313-cp313-win_amd64.whl.metadata (9.3 kB)
+Collecting joblib>=1.4 (from maintai==0.2.0)
+  Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting httpx>=0.28 (from maintai==0.2.0)
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting anyio (from httpx>=0.28->maintai==0.2.0)
+  Using cached anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting certifi (from httpx>=0.28->maintai==0.2.0)
+  Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx>=0.28->maintai==0.2.0)
+  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting idna (from httpx>=0.28->maintai==0.2.0)
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.28->maintai==0.2.0)
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.4->maintai==0.2.0)
+  Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting python-dateutil>=2.9.0 (from pandas>=2.2->maintai==0.2.0)
+  Using cached python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting tzdata (from pandas>=2.2->maintai==0.2.0)
+  Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting scipy>=1.10.0 (from scikit-learn>=1.6->maintai==0.2.0)
+  Using cached scipy-1.18.1-cp313-cp313-win_amd64.whl.metadata (61 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=1.6->maintai==0.2.0)
+  Using cached narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=1.6->maintai==0.2.0)
+  Using cached threadpoolctl-3.8.0-py3-none-any.whl.metadata (29 kB)
+Collecting typing_extensions>=4.16.0 (from anyio->httpx>=0.28->maintai==0.2.0)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Using cached numpy-2.5.4-cp313-cp313-win_amd64.whl (12.6 MB)
+Using cached pandas-3.1.1-cp313-cp313-win_amd64.whl (10.7 MB)
+Using cached python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+Downloading scikit_learn-1.9.1-cp313-cp313-win_amd64.whl (8.2 MB)
+   ---------------------------------------- 8.2/8.2 MB 569.7 kB/s  0:00:14
+Using cached narwhals-2.28.0-py3-none-any.whl (490 kB)
+Using cached scipy-1.18.1-cp313-cp313-win_amd64.whl (36.6 MB)
+Using cached threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
+Using cached anyio-4.16.0-py3-none-any.whl (134 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Installing collected packages: tzdata, typing_extensions, threadpoolctl, numpy, narwhals, idna, h11, cloudpickle, certifi, scipy, python-dateutil, joblib, httpcore, anyio, scikit-learn, pandas, httpx, maintai
+
+Successfully installed anyio-4.16.0 certifi-2026.10.23 cloudpickle-3.1.2 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 joblib-1.6.0 maintai-0.2.0 narwhals-2.28.0 numpy-2.5.4 pandas-3.1.1 python-dateutil-4.0.0 scikit-learn-1.9.1 scipy-1.18.1 threadpoolctl-3.8.0 typing_extensions-4.16.0 tzdata-2026.6
+
+[notice] A new release of pip is available: 26.1.2 -> 26.3
+[notice] To update, run: C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\python.exe -m pip install --upgrade pip
+
+Code de sortie : 0

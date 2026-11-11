@@ -1,0 +1,21 @@
+Dossier : C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9
+$ C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\python.exe -m pip install scikit-learn==1.8.0
+Collecting scikit-learn==1.8.0
+  Using cached scikit_learn-1.8.0-cp313-cp313-win_amd64.whl.metadata (11 kB)
+Requirement already satisfied: numpy>=1.24.1 in .\.venv\Lib\site-packages (from scikit-learn==1.8.0) (2.5.4)
+Requirement already satisfied: scipy>=1.10.0 in .\.venv\Lib\site-packages (from scikit-learn==1.8.0) (1.18.1)
+Requirement already satisfied: joblib>=1.3.0 in .\.venv\Lib\site-packages (from scikit-learn==1.8.0) (1.6.0)
+Requirement already satisfied: threadpoolctl>=3.2.0 in .\.venv\Lib\site-packages (from scikit-learn==1.8.0) (3.8.0)
+Requirement already satisfied: cloudpickle>=3.0 in .\.venv\Lib\site-packages (from joblib>=1.3.0->scikit-learn==1.8.0) (3.1.2)
+Using cached scikit_learn-1.8.0-cp313-cp313-win_amd64.whl (8.0 MB)
+Installing collected packages: scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 1.9.1
+    Uninstalling scikit-learn-1.9.1:
+      Successfully uninstalled scikit-learn-1.9.1
+Successfully installed scikit-learn-1.8.0
+
+[notice] A new release of pip is available: 26.1.2 -> 26.3
+[notice] To update, run: C:\Users\Othmane\AppData\Local\Temp\maintai-tp4-essai-c79vgyf9\.venv\Scripts\python.exe -m pip install --upgrade pip
+
+Code de sortie : 0

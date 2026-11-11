@@ -1,0 +1,30 @@
+Skip to main content
+
+URL de l'API
+
+Clé API
+
+visibility
+Stop
+Deploy
+MaintAI · prédiction de panne
+
+Données
+
+Prédiction
+
+Relevés
+
+5000
+
+Taux de panne
+
+13.6%
+
+Température moyenne
+
+59.8 °C
+
+Variable
+
+Taux de panne selon temperature_c
